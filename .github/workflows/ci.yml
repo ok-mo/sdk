@@ -12,6 +12,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  # build job
   build:
     name: Build
     runs-on: ubuntu-20.04
